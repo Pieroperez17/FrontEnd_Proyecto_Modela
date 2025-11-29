@@ -7,9 +7,10 @@ export default function Configuracion() {
     const menuItems = [
         { label: 'Sucursales', path: '/sucursales' },
         { label: 'Categoria', path: '/categoria' },
-        { label: 'Piezas', path: '/piezas' },
+        { label: 'Productos', path: '/productos' },
         { label: 'Proveedores', path: '/proveedores' },
         { label: 'Empleados', path: '/empleados' },
+        { label: 'Clientes', path: '/clientes' },
     ];
 
     return (

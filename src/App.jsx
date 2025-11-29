@@ -6,7 +6,7 @@ import Configuracion from './pages/Configuracion.jsx'
 import Inventario from './pages/Inventario.jsx'
 
 
-import {Proveedores,Piezas,Sucursales,Categorias,Empleados} from './pages/Pages_Configuracion/ConfigurationPages.jsx'
+import {Proveedores,Productos,Sucursales,Categorias,Empleados,Clientes} from './pages/Complementos/ConfigurationPages.jsx'
 
 
 
@@ -25,10 +25,12 @@ function App() {
 
           {/* Rutas adicionales de Configuracion */}
           <Route path="/proveedores" element={<Proveedores/>} />
-          <Route path="/piezas" element={<Piezas/>} />
+          <Route path="/productos" element={<Productos/>} />
           <Route path="/categoria" element={<Categorias/>} />
           <Route path="/sucursales" element={<Sucursales/>} />
           <Route path="/empleados" element={<Empleados/>} />
+          <Route path="/clientes" element={<Clientes/>} />
+          
         </Routes>
       </Router>
     </>
